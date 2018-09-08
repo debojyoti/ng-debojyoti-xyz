@@ -1,3 +1,86 @@
 body {
   padding: 0px;
   margin: 0px; }
+
+#main {
+  width: 100vw; }
+
+#landing-intro-wrapper {
+  height: 100vh;
+  background-color: #0057ee;
+  box-shadow: 10px 0px 25px rgba(0, 0, 0, 0.3); }
+
+#logo-top {
+  margin-top: 10%;
+  color: white; }
+  #logo-top span {
+    font-size: 1.5rem; }
+  @media screen and (max-width: 1200px) {
+    #logo-top {
+      margin-top: 15%;
+      font-size: 1.5rem; }
+      #logo-top span {
+        font-size: 1rem; } }
+
+.white-btn {
+  background-color: white;
+  color: #0057ee;
+  border: none;
+  border-radius: 2px;
+  font-weight: 600;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  transition: 0.4s; }
+
+.white-btn:hover {
+  background-color: #e0e0e0;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); }
+
+#mobile-contact-btn-wrapper {
+  text-align: right;
+  margin-top: 5%;
+  display: none; }
+  #mobile-contact-btn-wrapper button {
+    width: 80%; }
+  @media screen and (max-width: 1200px) {
+    #mobile-contact-btn-wrapper {
+      display: block; } }
+
+@media screen and (max-width: 1200px) {
+  .hide-on-mobile {
+    display: none; } }
+
+#search-wrapper {
+  margin-top: 30%; }
+
+#site-search {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-bottom: 2px solid white;
+  width: 100%;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.3);
+  outline: none;
+  padding-left: 10%;
+  color: white; }
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.61);
+  font-size: 1.2rem; }
+
+#intro-wrapper {
+  margin-left: 4%; }
+
+#profile-picture-wrapper {
+  margin-top: 30%; }
+  #profile-picture-wrapper img {
+    border-radius: 100px;
+    border: 4px solid white; }
+
+#about-wrapper {
+  margin-top: 15%; }
+  #about-wrapper > div > p {
+    color: white; }
+
+#impress-btn-wrapper {
+  margin-top: 1%; }
+  #impress-btn-wrapper button {
+    width: 70%; }
