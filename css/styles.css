@@ -15,7 +15,7 @@ body {
   color: white; }
   #logo-top span {
     font-size: 1.5rem; }
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1023px) {
     #logo-top {
       margin-top: 15%;
       font-size: 1.5rem; }
@@ -41,11 +41,11 @@ body {
   display: none; }
   #mobile-contact-btn-wrapper button {
     width: 80%; }
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1023px) {
     #mobile-contact-btn-wrapper {
       display: block; } }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1023px) {
   .hide-on-mobile {
     display: none; } }
 
@@ -84,3 +84,44 @@ body {
   margin-top: 1%; }
   #impress-btn-wrapper button {
     width: 70%; }
+  @media screen and (max-width: 1023px) {
+    #impress-btn-wrapper button {
+      width: 90%; } }
+
+#navbar-wrapper > div {
+  text-align: right; }
+
+.blue-btn {
+  color: white;
+  background-color: #0057ee;
+  border: none;
+  border-radius: 2px;
+  font-weight: 600;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  transition: 0.4s; }
+
+.blue-btn:hover {
+  background-color: #0047c2;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); }
+
+#contact-btn-blue {
+  margin-top: 3%;
+  margin-right: 3%;
+  width: 20%; }
+
+#display-slider-wrapper {
+  margin-top: 3%;
+  height: 60vh; }
+
+.project-card {
+  border-top: 3px solid #0057ee;
+  height: 25vh;
+  margin-left: 2%;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); }
+
+.project-card-active {
+  border-top: 3px solid #0057ee;
+  background-color: #0057ee;
+  height: 25vh;
+  margin-left: 2%;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); }

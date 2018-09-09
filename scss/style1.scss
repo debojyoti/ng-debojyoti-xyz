@@ -1,5 +1,5 @@
 $break-small: 320px;
-$break-large: 1200px;
+$break-large: 1023px;
 
 body {
     padding : 0px;
@@ -111,4 +111,57 @@ body {
     button {
         width: 70%;
     }
+    @media screen and (max-width: $break-large) {
+        button {
+            width: 90%;
+        }
+    }
+}
+
+#navbar-wrapper {
+    > div {
+        text-align: right;
+    }
+}
+
+.blue-btn {
+    color: white;
+    background-color: rgb(0, 87, 238);
+    border: none;
+    border-radius: 2px;
+    font-weight: 600;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: 0.4s;
+}
+
+.blue-btn:hover {
+    background-color: rgb(0, 71, 194);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+#contact-btn-blue {
+    margin-top: 3%;
+    margin-right: 3%;
+    width: 20%;
+}
+
+#display-slider-wrapper {
+    margin-top: 3%;
+    height: 60vh;
+    // background-color: blue;
+}
+
+.project-card {
+    border-top: 3px solid rgb(0, 87, 238);
+    height: 25vh;
+    margin-left: 2%;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.project-card-active {
+    border-top: 3px solid rgb(0, 87, 238);
+    background-color: rgb(0, 87, 238);
+    height: 25vh;
+    margin-left: 2%;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
